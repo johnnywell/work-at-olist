@@ -1,5 +1,10 @@
 # Work at Olist
 
+## Demo on Heroku
+https://workatolist.herokuapp.com
+username: demo
+password: demopasswd
+
 Olist is a company that offers an integration platform for sellers and
 marketplaces allowing them to sell their products across multiple channels.
 
