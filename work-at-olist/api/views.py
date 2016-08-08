@@ -6,6 +6,10 @@ from rest_framework.decorators import detail_route, list_route
 class ChannelViewSet(viewsets.ModelViewSet):
     """
     API endpoint that allows channels to be viewed or edited.
+
+    To Create or Update an entry please log in.
+    username: demo.
+    password: demopasswd.
     """
     queryset = Channel.objects.all()
     serializer_class = ChannelSerializer
@@ -26,6 +30,10 @@ class ChannelViewSet(viewsets.ModelViewSet):
 class CategoryViewSet(viewsets.ModelViewSet):
     """
     API endpoint that allow categories to be viewed or edited.
+
+    To Create or Update an entry please log in.
+    username: demo.
+    password: demopasswd.
     """
     queryset = Category.objects.all()
     serializer_class = CategorySerializer
