@@ -12,3 +12,6 @@ sudo easy_install3 pip
 # Install PostgreSQL
 sudo apt-get install -y postgresql libpq-dev build-essential
 sudo su postgres -c "createuser olist -s"
+
+
+sudo wget -O- https://toolbelt.heroku.com/install-ubuntu.sh | sh
